@@ -181,7 +181,6 @@ ol {
 
 fieldset {
   border: none;
-  height: 56px;
 }
 
 .search-form__textfield {
@@ -262,7 +261,7 @@ fieldset {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  margin: 2px;
+  outline-offset: 1px;
 }
 
 .search-form__label:hover .search-form__label-text {

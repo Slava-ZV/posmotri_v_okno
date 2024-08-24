@@ -142,6 +142,8 @@ ol {
   font-family: 'Oswald', serif;
   white-space: nowrap; 
   line-height: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 
 }
 
@@ -256,7 +258,6 @@ fieldset {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  margin: 1px;
 }
 
 .search-form__label:has(:focus-visible) {
